@@ -23,12 +23,12 @@ function applyPreferences() {
 
       if (fontSize) {
         document.body.style.fontSize = `${fontSize}px`;
-        document.getElementById('fontSize').value = fontSize;
+        document.getElementById('fontsize').value = fontSize;
       }
 
       if (fontColor) {
         document.body.style.color = fontColor;
-        document.getElementById('fontColor').value = fontColor;
+        document.getElementById('fontcolor').value = fontColor;
       }
     }
 
